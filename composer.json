@@ -1,0 +1,27 @@
+{
+    "name": "datalayerru/dlf-project",
+    "description": "DataLayer framework",
+    "keywords": ["dlf", "datalayer", "datalayer.ru", "mvc", "composer"],
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Zinchenko Sergey",
+            "email": "s.zinchenko@rassvet.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "datalayerru/dlf": "dev-master"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
