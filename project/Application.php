@@ -3,14 +3,14 @@
 namespace project;
 
 use dlf\basic\RouteHandler;
-use project\models\LoginForm;
+use Symfony\Component\Yaml\Yaml;
 
 class Application extends \dlf\basic\Application
 {
 
     public function __construct()
     {
-        parent::__construct(require_once('../project/config/db.php'));
+        parent::__construct(Yaml::parse(file_get_contents('../project/config/config.yaml')));
 
         RouteHandler::registerHandler('/',
             '\project\controllers\MainController::index');
