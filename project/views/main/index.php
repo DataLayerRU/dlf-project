@@ -10,7 +10,7 @@
 <div id="wrapper">
     <div id="page">
         <div id="content">
-            Hello, world!
+            Hello, <?= $name ?>
         </div>
     </div>
 </div>

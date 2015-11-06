@@ -2,8 +2,6 @@
 
 namespace project\controllers;
 
-use project\models\PostModel;
-
 class MainController extends \dlf\basic\Controller
 {
 
