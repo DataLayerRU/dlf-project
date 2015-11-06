@@ -7,7 +7,7 @@ class MainController extends \dlf\basic\Controller
 
     public function index()
     {
-        $this->title = 'Глваная страница';
+        $this->title = 'Main page';
 
         return $this->render('project/views/main/index.php',
             [
