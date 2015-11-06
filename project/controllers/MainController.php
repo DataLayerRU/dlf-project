@@ -12,9 +12,8 @@ class MainController extends \dlf\basic\Controller
         $this->title = 'Глваная страница';
 
         return $this->render('project/views/main/index.php',
-                [
-                'name' => 'World!',
-                'posts' => PostModel::getAll(\project\Application::$instance->getComponent('db'))
-        ]);
+            [
+                'name' => 'World!'
+            ]);
     }
 }
