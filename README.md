@@ -21,7 +21,7 @@ Requirements
 
 Installation
 ------------
-    composer create-project --prefer-dist --stability=dev DataLayerRU/dlf-project .
+    composer create-project --prefer-dist DataLayerRU/dlf-project .
 
 The MIT License (MIT)
 ---------------------
