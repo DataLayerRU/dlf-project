@@ -1,6 +1,7 @@
 {
   "name": "datalayerru/dlf-project",
   "description": "DataLayer framework",
+  "version": "0.2",
   "keywords": [
     "dlf",
     "datalayer",
@@ -19,7 +20,8 @@
   "require": {
     "php": ">=5.4.0",
     "datalayerru/dlf": "*",
-    "symfony/yaml": "*"
+    "symfony/yaml": "*",
+    "robmorgan/phinx": "*"
   },
   "config": {
     "process-timeout": 1800
