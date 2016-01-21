@@ -2,10 +2,10 @@
 
 namespace project;
 
-use dlf\basic\RouteHandler;
+use pwf\basic\RouteHandler;
 use Symfony\Component\Yaml\Yaml;
 
-class Application extends \dlf\basic\Application
+class Application extends \pwf\basic\Application
 {
 
     public function __construct()

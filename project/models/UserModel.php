@@ -3,9 +3,9 @@
 namespace project\models;
 
 use PDO;
-use dlf\Helpers;
+use pwf\Helpers;
 
-class UserModel extends \dlf\basic\DBModel
+class UserModel extends \pwf\basic\DBModel
 {
 
     /**
@@ -62,7 +62,7 @@ class UserModel extends \dlf\basic\DBModel
     /**
      * @inheritdoc
      */
-    public static function getAll(\dlf\components\dbconnection\interfaces\Connection $db)
+    public static function getAll(\pwf\components\dbconnection\interfaces\Connection $db)
     {
         $result = [];
 

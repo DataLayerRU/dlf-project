@@ -2,7 +2,7 @@
 
 namespace project\models;
 
-class CommentModel extends \dlf\basic\DBModel
+class CommentModel extends \pwf\basic\DBModel
 {
 
     /**
@@ -44,7 +44,7 @@ class CommentModel extends \dlf\basic\DBModel
     /**
      * @inheritdoc
      */
-    public static function getAll(\dlf\components\dbconnection\interfaces\Connection $db)
+    public static function getAll(\pwf\components\dbconnection\interfaces\Connection $db)
     {
         $result = [];
 
@@ -62,12 +62,12 @@ class CommentModel extends \dlf\basic\DBModel
     /**
      * Select comments by id_post field
      *
-     * @param \dlf\components\dbconnection\interfaces\Connection $db
+     * @param \pwf\components\dbconnection\interfaces\Connection $db
      * @param integer $postId
      *
      * @return array
      */
-    public static function getAllByPostId(\dlf\components\dbconnection\interfaces\Connection $db, $postId)
+    public static function getAllByPostId(\pwf\components\dbconnection\interfaces\Connection $db, $postId)
     {
         $result = [];
 

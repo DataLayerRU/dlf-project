@@ -4,7 +4,7 @@ namespace project\models;
 
 use PDO;
 
-class PostModel extends \dlf\basic\DBModel
+class PostModel extends \pwf\basic\DBModel
 {
 
     /**
@@ -48,7 +48,7 @@ class PostModel extends \dlf\basic\DBModel
     /**
      * @inheritdoc
      */
-    public static function getAll(\dlf\components\dbconnection\interfaces\Connection $db)
+    public static function getAll(\pwf\components\dbconnection\interfaces\Connection $db)
     {
         $result = [];
 

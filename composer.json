@@ -1,11 +1,11 @@
 {
-  "name": "datalayerru/dlf-project",
-  "description": "DataLayer framework",
+  "name": "professionalweb/pwf-project",
+  "description": "PW framework",
   "version": "0.2",
   "keywords": [
-    "dlf",
-    "datalayer",
-    "datalayer.ru",
+    "pwf",
+    "professional web",
+    "web-development.pw",
     "mvc",
     "composer"
   ],
@@ -13,13 +13,12 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Zinchenko Sergey",
-      "email": "zinchenko@datalayer.ru"
+      "name": "Zinchenko Sergey"
     }
   ],
   "require": {
     "php": ">=5.4.0",
-    "datalayerru/dlf": "*",
+    "professionalweb/pwf": "*",
     "symfony/yaml": "*",
     "robmorgan/phinx": "*"
   },

@@ -3,8 +3,8 @@
 namespace project\models;
 
 use PDO;
-use dlf\Helpers;
-use dlf\components\authorization\interfaces\Identity;
+use pwf\Helpers;
+use pwf\components\authorization\interfaces\Identity;
 
 class LoginForm extends UserModel implements Identity
 {
