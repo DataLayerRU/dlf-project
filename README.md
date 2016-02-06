@@ -1,5 +1,5 @@
-DLF basic project
-=====================
+PWF basic project
+=================
 
 
 Project structure
@@ -8,7 +8,9 @@ Project structure
 project
     config/              project configuration
     controllers/         controllers
+    migrations/          migration classes
     models/              models
+    seeds/               database seeds
     views/               views
 www                      public files
 vendor                   vendors
@@ -19,14 +21,19 @@ Requirements
 ------------
  - PHP 5.4+
 
+Dependencies
+------------
+ - [symfony/yaml](https://github.com/symfony/yaml)
+ - [robmorgan/phinx](https://phinx.org)
+
 Installation
 ------------
-    composer create-project --prefer-dist DataLayerRU/dlf-project .
+    composer create-project --prefer-dist professionalweb/pwf-project .
 
 The MIT License (MIT)
 ---------------------
 
-Copyright (c) 2015 Sergey Zinchenko, DataLayer.ru
+Copyright (c) 2016 Sergey Zinchenko, [Professional web](http://web-development.pw)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
