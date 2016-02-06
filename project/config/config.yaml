@@ -1,7 +1,0 @@
-db:
-  class: pwf\components\dbconnection\PDOConnection
-  dsn: mysql:host=localhost;dbname=test
-  login: root
-  password:
-auth:
-  class: pwf\components\authorization\Authorization

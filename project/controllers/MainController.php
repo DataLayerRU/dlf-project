@@ -2,7 +2,7 @@
 
 namespace project\controllers;
 
-class MainController extends \pwf\basic\Controller
+class MainController extends \pwf\basic\controller\WebController
 {
 
     public function index()

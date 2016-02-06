@@ -1,34 +1,43 @@
 {
-  "name": "professionalweb/pwf-project",
-  "description": "PW framework",
-  "version": "0.2",
-  "keywords": [
-    "pwf",
-    "professional web",
-    "web-development.pw",
-    "mvc",
-    "composer"
-  ],
-  "type": "project",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Zinchenko Sergey"
+    "name": "professionalweb/pwf-project",
+    "description": "PW framework",
+    "version": "0.3",
+    "homepage": "http://pwf.web-development.pw/",
+    "keywords": [
+        "pwf",
+        "professional web",
+        "web-development.pw",
+        "mvc",
+        "composer"
+    ],
+    "minimum-stability": "stable",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zinchenko Sergey",
+            "email": "zinchenko@web-development.pw"
+        }
+    ],
+    "support": {
+        "email": "info@web-development.pw",
+        "issues": "https://github.com/SergioMadness/pwf/issues",
+        "wiki": "https://github.com/SergioMadness/pwf/wiki",
+        "source": "https://github.com/SergioMadness/pwf/releases"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "professionalweb/pwf": "dev-master",
+        "symfony/yaml": "*",
+        "robmorgan/phinx": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "professionalweb/pwf": "*",
-    "symfony/yaml": "*",
-    "robmorgan/phinx": "*"
-  },
-  "config": {
-    "process-timeout": 1800
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
-    }
-  }
 }
