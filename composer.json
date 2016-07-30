@@ -1,7 +1,7 @@
 {
     "name": "professionalweb/pwf-project",
     "description": "PW framework",
-    "version": "0.3",
+    "version": "0.5",
     "homepage": "http://pwf.web-development.pw/",
     "keywords": [
         "pwf",
@@ -27,7 +27,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "professionalweb/pwf": "dev-master",
+        "professionalweb/pwf": "v0.5",
         "symfony/yaml": "*",
         "robmorgan/phinx": "*"
     },
