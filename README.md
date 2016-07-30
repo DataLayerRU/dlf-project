@@ -23,6 +23,7 @@ Requirements
 
 Dependencies
 ------------
+ - [professionalweb/pwf](https://github.com/SergioMadness/framework)
  - [symfony/yaml](https://github.com/symfony/yaml)
  - [robmorgan/phinx](https://phinx.org)
 
