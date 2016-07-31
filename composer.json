@@ -1,7 +1,7 @@
 {
     "name": "professionalweb/pwf-project",
     "description": "PW framework",
-    "version": "0.5",
+    "version": "0.5.1",
     "homepage": "http://pwf.web-development.pw/",
     "keywords": [
         "pwf",
@@ -38,6 +38,11 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "project\\": "project/"
         }
     }
 }
